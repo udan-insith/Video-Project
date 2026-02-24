@@ -10,3 +10,10 @@ btn.addEventListener('click', function() {
         video.play()
     }
 })
+
+// pre loader
+const preloader = document.querySelector(".preloader")
+
+window.addEventListener('load', function() {
+    preloader.classList.add("hide-preloader")
+})
